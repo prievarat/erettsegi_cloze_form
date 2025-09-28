@@ -21,7 +21,7 @@
   },
   {
     "sentence": "Each route includes frequent stops – simply hop off ______ you want to and return to the same stop",
-    "solution": "whenever"
+    "solution": "when/if/whenever"
   },
   {
     "sentence": "We strongly recommend that first timers start the tour at one of ______ main departure points",
@@ -32,8 +32,8 @@
     "solution": "to"
   },
   {
-    "sentence": "Tickets are valid ______ the same time the following day.",
-    "solution": "until"
+    "sentence": "Tickets are validfrom the time of purchase ______ the same time the following day.",
+    "solution": "until/till"
   },
   {
     "sentence": "In Britain, ______ than 20 people have been injured in an annual cheese-chasing contest.",
@@ -41,7 +41,7 @@
   },
   {
     "sentence": "Officials say that’s actually good news, ______ usually more people get hurt.",
-    "solution": "as/since/because"
+    "solution": "because/as/since"
   },
   {
     "sentence": "The contest ______ place outside of Gloucestershire.",
@@ -116,7 +116,7 @@
     "solution": "do"
   },
   {
-    "sentence": "Lost is – ______ popular series on Star Movies every Saturday.",
+    "sentence": "Lost is ______ popular series on Star Movies every Saturday.",
     "solution": "a"
   },
   {
@@ -188,7 +188,7 @@
     "solution": "from"
   },
   {
-    "sentence": "…crash ______ following year.",
+    "sentence": "The plane will crash ______ following year.",
     "solution": "the"
   },
   {
@@ -196,7 +196,7 @@
     "solution": "the"
   },
   {
-    "sentence": "He retired in 1970, and they ______ lived in Salem since then.",
+    "sentence": "They retired in 1970, and they ______ lived in Salem since then.",
     "solution": "have"
   },
   {
@@ -228,7 +228,7 @@
     "solution": "that"
   },
   {
-    "sentence": "…both our geography ______ our weather system.",
+    "sentence": "It will change both our geography ______ our weather system.",
     "solution": "and"
   },
   {
@@ -260,7 +260,7 @@
     "solution": "the"
   },
   {
-    "sentence": "…same little dog ______ dug a hole under the fence at Vanda’s home in April and disappeared.",
+    "sentence": "It was the same little dog ______ dug a hole under the fence at Vanda’s home in April and disappeared.",
     "solution": "that"
   },
   {
@@ -308,7 +308,7 @@
     "solution": "not"
   },
   {
-    "sentence": "She was angry\"…and threw ______ crumpled test paper.\"",
+    "sentence": "She was angry\"…and threw ______ crumpled test paper into the bin.\"",
     "solution": "her"
   },
   {
@@ -328,7 +328,7 @@
     "solution": "on"
   },
   {
-    "sentence": "…and in ______ US state of California.",
+    "sentence": "It was legal in ______ US state of California.",
     "solution": "the"
   },
   {
@@ -356,7 +356,7 @@
     "solution": "by"
   },
   {
-    "sentence": "______ hotel rooms, a survey says.",
+    "sentence": "They came ______ hotel rooms, a survey says.",
     "solution": "from"
   },
   {
@@ -376,7 +376,7 @@
     "solution": "leave"
   },
   {
-    "sentence": "…such ______ false teeth, false eyeballs and wigs.",
+    "sentence": "They leave funny items, such ______ false teeth, false eyeballs and wigs.",
     "solution": "as"
   },
   {
@@ -384,7 +384,7 @@
     "solution": "many"
   },
   {
-    "sentence": "…before checking ______.",
+    "sentence": "We need to pack our bags before checking ______.",
     "solution": "out"
   },
   {
@@ -404,19 +404,19 @@
     "solution": "ago"
   },
   {
-    "sentence": "______ he found a few drops of blood on his throat.",
+    "sentence": "______ he found a few drops of blood on his throat, he got really scared.",
     "solution": "When"
   },
   {
-    "sentence": "…his body system realised ______ had happened.",
+    "sentence": "His body system never realised ______ had happened.",
     "solution": "what"
   },
   {
     "sentence": "He was ______ taken to hospital where an X-ray showed the metal.",
-    "solution": "then"
+    "solution": "then/later/afterwards"
   },
   {
-    "sentence": "…seal itself off in Hartley’s body ______ they treated him with antibiotics.",
+    "sentence": "The metal would seal itself off in Hartley’s body ______ they treated him with antibiotics.",
     "solution": "until"
   },
   {
@@ -441,14 +441,14 @@
   },
   {
     "sentence": "…another struggling young artist ______ Franz Knigstein worked together.",
-    "solution": "named"
+    "solution": "named/called"
   },
   {
-    "sentence": "…to earn money ______ their art studies.",
+    "sentence": "They wanted to earn money ______ their art studies.",
     "solution": "for"
   },
   {
-    "sentence": "…left them little time ______ study art.",
+    "sentence": "Their jobs left them little time ______ study art.",
     "solution": "to"
   },
   {
@@ -456,7 +456,7 @@
     "solution": "them"
   },
   {
-    "sentence": "…until he became a successful artist ______ would then be able to support the other.",
+    "sentence": "One of them would become a successful artist ______ would then be able to support the other.",
     "solution": "who"
   },
   {
@@ -473,7 +473,7 @@
   },
   {
     "sentence": "Dürer looked at the hands ______ had supported him.",
-    "solution": "that"
+    "solution": "that/which"
   },
   {
     "sentence": "…tries to earn some ______ as a street performer in a zoo.",
@@ -484,7 +484,7 @@
     "solution": "soon"
   },
   {
-    "sentence": "…and takes ______ into his office.",
+    "sentence": "The principal grabs Joe and takes ______ into his office.",
     "solution": "him"
   },
   {
@@ -493,7 +493,7 @@
   },
   {
     "sentence": "So the next morning he ______ on a gorilla suit.",
-    "solution": "put"
+    "solution": "puts/put"
   },
   {
     "sentence": "He can sleep, play, and ______ fun of people.",
@@ -509,7 +509,7 @@
   },
   {
     "sentence": "Then one day ______ he is swinging over the furious lion he slips and falls.",
-    "solution": "while"
+    "solution": "while/as"
   },
   {
     "sentence": "The actor is ______ scared that he starts screaming.",
@@ -524,7 +524,7 @@
     "solution": "puts"
   },
   {
-    "sentence": "…and none ______ them on leashes.",
+    "sentence": "When they walk the dogs, none ______ them are on leashes.",
     "solution": "of"
   },
   {
@@ -532,7 +532,7 @@
     "solution": "to"
   },
   {
-    "sentence": "…taught me at an early age ______ to work against nature.",
+    "sentence": "Life taught me at an early age ______ to work against nature.",
     "solution": "not"
   },
   {
@@ -544,15 +544,15 @@
     "solution": "where"
   },
   {
-    "sentence": "…they need a ______ of exercise to be calm.",
+    "sentence": "Dogs need a ______ of exercise to be calm.",
     "solution": "lot"
   },
   {
-    "sentence": "…dogs ______ behavior is difficult to find homes for.",
+    "sentence": "He works with dogs ______ behavior makes it difficult to find homes for them.",
     "solution": "whose"
   },
   {
-    "sentence": "…makes ______ difficult to find homes for them.",
+    "sentence": "Their behaviour makes ______ difficult to find homes for them.",
     "solution": "it"
   },
   {
@@ -560,11 +560,11 @@
     "solution": "by"
   },
   {
-    "sentence": "…answering an emergency call ______ had been made from his house.",
+    "sentence": "The police answered an emergency call ______ had been made from his house.",
     "solution": "that"
   },
   {
-    "sentence": "…found Ginger sleeping next ______ the phone.",
+    "sentence": "They found Ginger sleeping next ______ the phone.",
     "solution": "to"
   },
   {
@@ -572,11 +572,11 @@
     "solution": "from"
   },
   {
-    "sentence": "______ the officers noticed Ginger asleep on the phone table.",
+    "sentence": "______ the officers noticed Ginger asleep on the phone table, they saw she was alive.",
     "solution": "When"
   },
   {
-    "sentence": "They quickly came to the conclusion: that ______ was Ginger.",
+    "sentence": "They quickly came to the conclusion that ______ was Ginger.",
     "solution": "it"
   },
   {
@@ -600,11 +600,11 @@
     "solution": "if"
   },
   {
-    "sentence": "…including different ones ______ cook in, sleep in, play in.",
+    "sentence": "I would include different ones ______ cook in, sleep in, play in.",
     "solution": "to"
   },
   {
-    "sentence": "…large windows to let the sunlight in ______ keep the burglars out.",
+    "sentence": "There would be large windows to let the sunlight in ______ keep the burglars out.",
     "solution": "and"
   },
   {
@@ -612,7 +612,7 @@
     "solution": "are"
   },
   {
-    "sentence": "…those of people who lived in houses long ______.",
+    "sentence": "Your life is different to those of people who lived in houses long ______.",
     "solution": "ago"
   },
   {
@@ -620,7 +620,7 @@
     "solution": "of"
   },
   {
-    "sentence": "…to keep ______ safe from predators.",
+    "sentence": "When you had sheep, you had to keep ______ safe from predators.",
     "solution": "them"
   },
   {
@@ -632,7 +632,7 @@
     "solution": "be"
   },
   {
-    "sentence": "…if ______ were no children on board.",
+    "sentence": "He would want to know if ______ were no children on board.",
     "solution": "there"
   },
   {
@@ -652,7 +652,7 @@
     "solution": "without"
   },
   {
-    "sentence": "…parents unable ______ control their children.",
+    "sentence": "Some parents are unable ______ control their children.",
     "solution": "to"
   },
   {
@@ -661,7 +661,7 @@
   },
   {
     "sentence": "Any disturbance when flying is annoying but ______ seems uncontrollable.",
-    "solution": "what"
+    "solution": "never"
   },
   {
     "sentence": "…young children should ______ allowed in first-class.",
@@ -1511,4 +1511,5 @@
     "sentence": "______ you’re a competent swimmer, you should feel safe.",
     "solution": "If"
   }
+
 ]
