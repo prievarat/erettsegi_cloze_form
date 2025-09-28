@@ -7,7 +7,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :focus { outline: none; }
-    .focus-ring:focus { box-shadow: 0 0 0 3px rgba(0,0,0,0.25); }
     .tab-active { background: black; color: white; }
     .tab-inactive { background: white; color: #6b7280; border: 1px solid #e5e7eb; }
     kbd{border:1px solid #e5e7eb;border-bottom-width:2px;border-radius:.375rem;padding:.1rem .35rem}
@@ -37,62 +36,50 @@
       <button id="tabWF" class="py-2 rounded-2xl tab-inactive">Word Formation</button>
     </div>
 
-    <!-- ================= Cloze ================== -->
     <section id="clozeSection" class="bg-white rounded-2xl shadow p-5 md:p-7">
       <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
         <div class="text-sm">Item <span id="clozeIndex" class="font-semibold">1</span> / <span id="clozeTotal">1</span></div>
         <div class="text-sm">Attempts: <span id="clozeAttempts" class="font-semibold">0</span></div>
         <div class="text-sm">Score: <span id="clozeScore" class="font-semibold">0</span></div>
       </div>
-
       <p id="clozeSentence" class="text-lg md:text-xl leading-relaxed mb-4">(no item)</p>
-
       <div class="flex items-center gap-2 mb-3">
         <input id="clozeInput" placeholder="Type your answer here"
-               class="flex-1 px-4 py-3 rounded-xl border focus:outline-none focus:ring-2 focus:ring-black focus-ring" />
+               class="flex-1 px-4 py-3 rounded-xl border focus:outline-none focus:ring-2 focus:ring-black" />
         <button id="clozeCheck" class="px-4 py-3 rounded-xl bg-black text-white hover:opacity-90">Check</button>
         <button id="clozeGiveUp" class="px-4 py-3 rounded-xl bg-gray-100 border hover:bg-gray-50">Give up</button>
         <button id="clozeShow" class="px-4 py-3 rounded-xl bg-gray-100 border hover:bg-gray-50">Show answer</button>
         <button id="clozeNext" class="px-4 py-3 rounded-xl bg-gray-100 border hover:bg-gray-50">Next</button>
       </div>
-
       <div id="clozeFeedback" class="mb-2 text-sm"></div>
-
       <div id="clozeReveal" class="text-sm text-gray-700 hidden">
         Correct answer(s): <span id="clozeAnswers"></span>
       </div>
-
       <div class="mt-6 h-2 bg-gray-200 rounded-full overflow-hidden">
         <div id="clozeProgress" class="h-full bg-black" style="width:0%"></div>
       </div>
     </section>
 
-    <!-- ================= WF ================== -->
     <section id="wfSection" class="mt-6 bg-white rounded-2xl shadow p-5 md:p-7 hidden">
       <div class="flex flex-wrap items-center justify-between gap-3 mb-1">
         <div class="text-sm">Item <span id="wfIndex" class="font-semibold">1</span> / <span id="wfTotal">1</span></div>
         <div class="text-sm">Attempts: <span id="wfAttempts" class="font-semibold">0</span></div>
         <div class="text-sm">Score: <span id="wfScore" class="font-semibold">0</span></div>
       </div>
-
       <p id="wfSentence" class="text-lg md:text-xl leading-relaxed mb-2">(no item)</p>
       <p class="text-sm text-gray-600 mb-4">Base word: <span id="wfBase" class="font-semibold">—</span></p>
-
       <div class="flex items-center gap-2 mb-3">
         <input id="wfInput" placeholder="Form the correct word"
-               class="flex-1 px-4 py-3 rounded-xl border focus:outline-none focus:ring-2 focus:ring-black focus-ring" />
+               class="flex-1 px-4 py-3 rounded-xl border focus:outline-none focus:ring-2 focus:ring-black" />
         <button id="wfCheck" class="px-4 py-3 rounded-xl bg-black text-white hover:opacity-90">Check</button>
         <button id="wfGiveUp" class="px-4 py-3 rounded-xl bg-gray-100 border hover:bg-gray-50">Give up</button>
         <button id="wfShow" class="px-4 py-3 rounded-xl bg-gray-100 border hover:bg-gray-50">Show answer</button>
         <button id="wfNext" class="px-4 py-3 rounded-xl bg-gray-100 border hover:bg-gray-50">Next</button>
       </div>
-
       <div id="wfFeedback" class="mb-2 text-sm"></div>
-
       <div id="wfReveal" class="text-sm text-gray-700 hidden">
         Correct answer(s): <span id="wfAnswers"></span>
       </div>
-
       <div class="mt-6 h-2 bg-gray-200 rounded-full overflow-hidden">
         <div id="wfProgress" class="h-full bg-black" style="width:0%"></div>
       </div>
@@ -110,20 +97,29 @@
       return s
         .toLowerCase()
         .normalize('NFD')
-        .replace(/[\\u0300-\\u036f]/g, '')
+        .replace(/[\u0300-\u036f]/g, '')
         .replace(/[“”"'`]/g, '')
         .replace(/[-–—]/g, '')
-        .replace(/[.,!?;:()\\[\\]{}]/g, '')
-        .replace(/\\s+/g, ' ')
+        .replace(/[.,!?;:()\[\]{}]/g, '')
+        .replace(/\s+/g, ' ')
         .trim();
     }
-    function stripArticles(s) { return s.replace(/^(?:a|an|the)\\s+/i, '').trim(); }
+    function stripArticles(s) { return s.replace(/^(?:a|an|the)\s+/i, '').trim(); }
     function normalizeLenient(s) { return normalizeBase(stripArticles(s)); }
     function normalizeStrict(s)  { return normalizeBase(s); }
+
+    // Safer answer splitter (no regex with '/' needed)
     function splitAnswers(sol) {
-      const parts = String(sol).split(/\\s*(?:\\/|\\||,|\\bor\\b)\\s*/i).map(p => p.trim()).filter(Boolean);
-      return parts.length ? parts : [String(sol).trim()];
+      let s = String(sol ?? '');
+      // unify common separators to '|'
+      s = s.replace(/\\bor\\b/ig, '|');
+      s = s.split(',').join('|');
+      s = s.split('/').join('|');
+      s = s.split('||').join('|');
+      // split on '|' and trim
+      return s.split('|').map(p => p.trim()).filter(Boolean);
     }
+
     function shuffle(arr) { for (let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]];} return arr; }
 
     // ===== Global toggles =====
@@ -133,16 +129,13 @@
     toggleStrict.addEventListener('change', ()=> stateGlobal.strict = toggleStrict.checked);
     toggleRandom.addEventListener('change', ()=> {
       stateGlobal.randomize = toggleRandom.checked;
-      // re-randomize both decks but keep current index within bounds
       clozeDeck.setItems(clozeDeck.items);
       wfDeck.setItems(wfDeck.items);
     });
 
-    // ===== Deck factory (shared scoring/logic) =====
+    // ===== Deck factory =====
     function makeDeck(cfg){
-      const st = {
-        items: [], idx: 0, attempts: 0, score: 0, showAns: false
-      };
+      const st = { items: [], idx: 0, attempts: 0, score: 0, showAns: false };
       function setItems(newItems){
         st.items = Array.isArray(newItems) ? newItems.slice() : [];
         if (stateGlobal.randomize) shuffle(st.items);
@@ -203,7 +196,6 @@
       return { setItems, items: st.items, render, next };
     }
 
-    // ===== Wire Cloze deck =====
     const clozeDeck = makeDeck({
       idxEl: document.getElementById('clozeIndex'),
       totalEl: document.getElementById('clozeTotal'),
@@ -222,7 +214,6 @@
       btnNext: document.getElementById('clozeNext'),
     });
 
-    // ===== Wire WF deck =====
     const wfDeck = makeDeck({
       idxEl: document.getElementById('wfIndex'),
       totalEl: document.getElementById('wfTotal'),
@@ -241,7 +232,7 @@
       btnNext: document.getElementById('wfNext'),
     });
 
-    // ===== Tabs =====
+    // Tabs
     const tabCloze = document.getElementById('tabCloze');
     const tabWF    = document.getElementById('tabWF');
     const clozeSection = document.getElementById('clozeSection');
@@ -261,7 +252,7 @@
       document.getElementById('wfInput').focus();
     });
 
-    // ===== Loaders =====
+    // Loaders
     const STARTER_CLOZE = [
       { sentence: "And we are sure you’ll enjoy your time ______ us.", solution: "with" },
       { sentence: "There ______ a full commentary in English and a choice of six other languages.", solution: "is" },
