@@ -428,7 +428,7 @@
     "solution": "the"
   },
   {
-    "sentence": "The doctor then decided it was time to remove ______.",
+    "sentence": "The doctor looked at the nail in his stomach and then decided it was time to remove ______.",
     "solution": "it"
   },
   {
@@ -1076,19 +1076,19 @@
     "solution": "the"
   },
   {
-    "sentence": "Their original purpose was ______ else.",
+    "sentence": "Their original purpose was ______ else, not this.",
     "solution": "something"
   },
   {
-    "sentence": "…the idea that people ______ do morally wrong things will be punished.",
+    "sentence": "He had the idea that people ______ do morally wrong things will be punished.",
     "solution": "who"
   },
   {
-    "sentence": "…wrong things will ______ punished.",
+    "sentence": "All wrong things will ______ punished.",
     "solution": "be"
   },
   {
-    "sentence": "…as a warning to little children (and adults) ______ be good.",
+    "sentence": "It was a warning to little children (and adults) ______ be good.",
     "solution": "to"
   },
   {
@@ -1096,11 +1096,11 @@
     "solution": "were"
   },
   {
-    "sentence": "…most of their original, darker details and endings ______ been removed.",
+    "sentence": "Actually, we know that most of their original, darker details and endings ______ been removed.",
     "solution": "have"
   },
   {
-    "sentence": "…(0) ______ has 100 trains, 400 bridges, and 3,000 miniature buildings.",
+    "sentence": "His model city is big,  ______ has 100 trains, 400 bridges, and 3,000 miniature buildings.",
     "solution": "it"
   },
   {
@@ -1112,15 +1112,15 @@
     "solution": "than"
   },
   {
-    "sentence": "…is miniature but ______ is anything but small-scale.",
+    "sentence": "The model city is miniature but ______ is anything but small-scale.",
     "solution": "it"
   },
   {
-    "sentence": "…who not ______ built the 52,000 sq ft building…",
+    "sentence": "He had a friend who not ______ built the 52,000 sq ft building, but also sold it.",
     "solution": "only"
   },
   {
-    "sentence": "…and handcrafted almost all of ______ remarkably lifelike scenery.",
+    "sentence": "He designed the model city and handcrafted almost all of ______ remarkably lifelike scenery.",
     "solution": "its"
   },
   {
@@ -1132,20 +1132,20 @@
     "solution": "much"
   },
   {
-    "sentence": "…to his home ______ order to house his collection…",
+    "sentence": "He carried everything to his house ______ order to show off his collection…",
     "solution": "in"
   },
   {
-    "sentence": "…exercise should ______ both expensive and extreme.",
+    "sentence": "People say that this exercise should ______ both expensive and extreme.",
     "solution": "be"
   },
   {
-    "sentence": "…doesn’t seem to matter what ______ of physical activity you do.",
+    "sentence": "As long as you do something, it doesn’t seem to matter what ______ of physical activity you do.",
     "solution": "kind"
   },
   {
-    "sentence": "…asked a group of them ______ they would spend an extra four hours…",
-    "solution": "if"
+    "sentence": "He asked a group of his friends ______ they would spend an extra four hours helping him.",
+    "solution": "if/whether"
   },
   {
     "sentence": "…we may ______ actually need to set aside extra time to work out.",
@@ -1513,3 +1513,4 @@
   }
 
 ]
+
