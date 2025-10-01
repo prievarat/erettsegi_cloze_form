@@ -146,107 +146,118 @@
 
     // ===== Deck factory (with both bugfixes) =====
     function makeDeck(cfg){
-      const st = {
-        items: [], idx: 0, attempts: 0, score: 0,
-        showAns: false, peeked: false, solved: false
-      };
+  const st = {
+    items: [], idx: 0, attempts: 0, score: 0,
+    showAns: false, peeked: false, solved: false
+  };
 
-      function setItems(newItems){
-        st.items = Array.isArray(newItems) ? newItems.slice() : [];
-        if (stateGlobal.randomize) shuffle(st.items);
-        st.idx = 0; st.attempts = 0; st.showAns = false; st.peeked = false; st.solved = false;
-        cfg.input.value = '';
-        enableAnswering(true);
-        render();
-      }
-      function current(){ return st.items[Math.min(st.idx, Math.max(0, st.items.length-1))]; }
+  function setItems(newItems){
+    st.items = Array.isArray(newItems) ? newItems.slice() : [];
+    if (stateGlobal.randomize) shuffle(st.items);
+    st.idx = 0; st.attempts = 0; st.showAns = false; st.peeked = false; st.solved = false;
+    cfg.input.value = '';
+    enableAnswering(true);
+    render();
+  }
+  function current(){ return st.items[Math.min(st.idx, Math.max(0, st.items.length-1))]; }
+  function forfeited(){ return st.peeked || st.attempts > 0; }
 
-      function enableAnswering(on){
-        cfg.input.disabled = !on;
-        cfg.btnCheck.disabled = !on;
-        cfg.input.classList.toggle('disabled', !on);
-        cfg.btnCheck.classList.toggle('disabled', !on);
-      }
+  function enableAnswering(on){
+    cfg.input.disabled = !on;
+    cfg.btnCheck.disabled = !on;
+    cfg.input.classList.toggle('disabled', !on);
+    cfg.btnCheck.classList.toggle('disabled', !on);
+  }
 
-      function render(){
-        const total = st.items.length || 1;
-        const idx = Math.min(st.idx, total-1);
-        const cur = st.items[idx] || {};
-        cfg.idxEl.textContent = idx + 1;
-        cfg.totalEl.textContent = total;
-        cfg.attemptsEl.textContent = st.attempts;
-        cfg.scoreEl.textContent = st.score;
-        cfg.sentEl.textContent = cur.sentence || '(no item)';
-        if (cfg.baseEl) cfg.baseEl.textContent = cur.base || '—';
-        cfg.progressEl.style.width = `${((idx+1)/total)*100}%`;
-        if (!st.showAns) {
-          cfg.revealBox.classList.add('hidden');
-        } else {
-          cfg.revealBox.classList.remove('hidden');
-          cfg.answersEl.textContent = cur.solution ? splitAnswers(cur.solution).join(', ') : '';
-        }
-      }
-
-      function resetForItem(){
-        st.attempts = 0;
-        st.showAns  = false;
-        st.peeked   = false;     // show answer penalty available again
-        st.solved   = false;     // item not solved yet
-        cfg.input.value = '';
-        cfg.feedback.className = 'mb-2 text-sm';
-        cfg.feedback.textContent = '';
-        enableAnswering(true);
-      }
-
-      function next(){ st.idx = (st.idx + 1) % (st.items.length || 1); resetForItem(); render(); cfg.input.focus(); }
-
-      function show(){
-        if (!st.peeked) {           // only once per item
-          st.score -= 5;
-          st.peeked = true;
-          cfg.feedback.textContent = '👀 Revealed answer: -5';
-          cfg.feedback.className = 'mb-2 text-sm text-amber-600';
-        }
-        st.showAns = true;
-        render();
-      }
-
-      function giveUp(){ next(); }
-
-      function check(){
-        if (st.solved){
-          cfg.feedback.textContent = '✔️ Already solved. Use Next.';
-          cfg.feedback.className = 'mb-2 text-sm text-gray-600';
-          return;
-        }
-        const cur = current(); if (!cur) return;
-        const sols = splitAnswers(cur.solution);
-        const userRaw = cfg.input.value;
-        const norm = stateGlobal.strict ? normalizeStrict : normalizeLenient;
-        const user = norm(userRaw);
-        const set = new Set(sols.map(s=>norm(s)));
-
-        if (set.has(user)){
-          st.solved = true;          // lock the item after success
-          st.score += 10;
-          cfg.feedback.textContent = '✅ Correct! +10';
-          cfg.feedback.className = 'mb-2 text-sm text-green-600';
-          enableAnswering(false);    // disable input + Check
-        } else {
-          st.score   -= 5;
-          st.attempts += 1;
-          cfg.feedback.textContent = '❌ Not quite. -5';
-          cfg.feedback.className = 'mb-2 text-sm text-red-600';
-        }
-        render();
-      }
-
-      cfg.btnCheck .addEventListener('click', check);
-      cfg.btnGiveUp.addEventListener('click', giveUp);
-      cfg.btnShow  .addEventListener('click', show);
-      cfg.btnNext  .addEventListener('click', next);
-      return { setItems, items: st.items, render, next };
+  function render(){
+    const total = st.items.length || 1;
+    const idx = Math.min(st.idx, total-1);
+    const cur = st.items[idx] || {};
+    cfg.idxEl.textContent = idx + 1;
+    cfg.totalEl.textContent = total;
+    cfg.attemptsEl.textContent = st.attempts;
+    cfg.scoreEl.textContent = st.score;
+    cfg.sentEl.textContent = cur.sentence || '(no item)';
+    if (cfg.baseEl) cfg.baseEl.textContent = cur.base || '—';
+    cfg.progressEl.style.width = `${((idx+1)/total)*100}%`;
+    if (!st.showAns) {
+      cfg.revealBox.classList.add('hidden');
+    } else {
+      cfg.revealBox.classList.remove('hidden');
+      cfg.answersEl.textContent = cur.solution ? splitAnswers(cur.solution).join(', ') : '';
     }
+  }
+
+  function resetForItem(){
+    st.attempts = 0;
+    st.showAns  = false;
+    st.peeked   = false;
+    st.solved   = false;
+    cfg.input.value = '';
+    cfg.feedback.className = 'mb-2 text-sm';
+    cfg.feedback.textContent = '';
+    enableAnswering(true);
+  }
+
+  function next(){ st.idx = (st.idx + 1) % (st.items.length || 1); resetForItem(); render(); cfg.input.focus(); }
+
+  function show(){
+  // Reveal without score penalty, but forfeit positive points on this item
+  st.peeked = true;
+  cfg.feedback.textContent = '👀 Revealed answer. (This item will now give 0 points even if correct.)';
+  cfg.feedback.className = 'mb-2 text-sm text-amber-600';
+  st.showAns = true;
+    render();
+  }
+
+  function giveUp(){
+  // Give up: no score change, but item forfeited => 0 pts if later answered
+  st.peeked = true;
+  cfg.feedback.textContent = '⏭️ Passed. 0 points for this item.';
+  cfg.feedback.className = 'mb-2 text-sm text-gray-600';
+  next();
+}
+
+  function check(){
+    if (st.solved){
+      cfg.feedback.textContent = '✔️ Already solved. Use Next.';
+      cfg.feedback.className = 'mb-2 text-sm text-gray-600';
+      return;
+    }
+    const cur = current(); if (!cur) return;
+    const sols = splitAnswers(cur.solution);
+    const userRaw = cfg.input.value;
+    const norm = stateGlobal.strict ? normalizeStrict : normalizeLenient;
+    const user = norm(userRaw);
+    const set = new Set(sols.map(s=>norm(s)));
+
+    if (set.has(user)){
+      st.solved = true;
+      if (forfeited()){
+        // Correct after wrong or reveal -> 0 points
+        cfg.feedback.textContent = '✅ Correct, but 0 points (already wrong/peeked).';
+        cfg.feedback.className = 'mb-2 text-sm text-amber-700';
+      } else {
+        st.score += 10;
+        cfg.feedback.textContent = '✅ Correct! +10';
+        cfg.feedback.className = 'mb-2 text-sm text-green-600';
+      }
+      enableAnswering(false);    // lock input for this item
+    } else {
+      st.score   -= 5;
+      st.attempts += 1;
+      cfg.feedback.textContent = '❌ Not quite. -5. (This item will now give 0 points even if correct.)';
+      cfg.feedback.className = 'mb-2 text-sm text-red-600';
+    }
+    render();
+  }
+
+  cfg.btnCheck .addEventListener('click', check);
+  cfg.btnGiveUp.addEventListener('click', giveUp);
+  cfg.btnShow  .addEventListener('click', show);
+  cfg.btnNext  .addEventListener('click', next);
+  return { setItems, items: st.items, render, next };
+}
 
     // ===== Wire up Cloze deck =====
     const clozeDeck = makeDeck({
