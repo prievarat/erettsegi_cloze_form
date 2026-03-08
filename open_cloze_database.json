@@ -417,14 +417,14 @@
   },
   {
     "sentence": "The metal would seal itself off in Hartley’s body ______ they treated him with antibiotics.",
-    "solution": "until"
+    "solution": "until/till/after/when/and"
   },
   {
-    "sentence": "…that Hartley would carry the nail ______ him to the grave.",
+    "sentence": "Doctors said that Hartley would carry the nail ______ him to the grave.",
     "solution": "with"
   },
   {
-    "sentence": "An X-ray this month showed ______ one-inch long nail was moving.",
+    "sentence": "There was a one-inch log nail and an X-ray this month showed that ______ one-inch long nail was moving.",
     "solution": "the"
   },
   {
@@ -444,7 +444,7 @@
     "solution": "named/called"
   },
   {
-    "sentence": "They wanted to earn money ______ their art studies.",
+    "sentence": "They needed to pay the master and they wanted to earn money ______ their art studies.",
     "solution": "for"
   },
   {
@@ -452,23 +452,23 @@
     "solution": "to"
   },
   {
-    "sentence": "They decided to draw lots: one of ______ would continue to study full-time.",
+    "sentence": "The two men decided to draw lots: one of ______ would continue to study full-time.",
     "solution": "them"
   },
   {
     "sentence": "One of them would become a successful artist ______ would then be able to support the other.",
-    "solution": "who"
+    "solution": "who/that"
   },
   {
-    "sentence": "______ he became a famous artist, he returned to keep his part of the agreement.",
-    "solution": "After"
+    "sentence": "______ he became a famous artist, he returned to keep his part of the agreement to support his friend.",
+    "solution": "After/When/As"
   },
   {
-    "sentence": "By ______, however, the years of hard labour had caused his friend's hands to become twisted.",
+    "sentence": "He was too late. By ______, however, the years of hard labour had caused his friend's hands to become twisted.",
     "solution": "then"
   },
   {
-    "sentence": "…and he could ______ longer use them for the delicate brush strokes.",
+    "sentence": "The apinter could ______ longer use his hands for the delicate brush strokes.",
     "solution": "no"
   },
   {
@@ -476,7 +476,7 @@
     "solution": "that/which"
   },
   {
-    "sentence": "…tries to earn some ______ as a street performer in a zoo.",
+    "sentence": "Now the painter tries to earn some ______ as a street performer in a zoo.",
     "solution": "money"
   },
   {
@@ -501,7 +501,7 @@
   },
   {
     "sentence": "Eventually the crowds get bored ______ him.",
-    "solution": "with"
+    "solution": "with/of"
   },
   {
     "sentence": "______ wanting to lose his audience, he climbs to the top of his cage.",
@@ -516,7 +516,7 @@
     "solution": "so"
   },
   {
-    "sentence": "…taking a pack of 40 dogs to the beach ______ a walk.",
+    "sentence": "His job involves taking a pack of 40 dogs to the beach ______ a walk.",
     "solution": "for"
   },
   {
@@ -532,7 +532,7 @@
     "solution": "to"
   },
   {
-    "sentence": "Life taught me at an early age ______ to work against nature.",
+    "sentence": "Life taught me at an early age ______ to work against nature, but to work with it.",
     "solution": "not"
   },
   {
@@ -540,7 +540,7 @@
     "solution": "to"
   },
   {
-    "sentence": "Studying dogs on the farm ______ he spent his childhood.",
+    "sentence": "He spent his childhood studying dogs on the farm ______ he spent his childhood.",
     "solution": "where"
   },
   {
@@ -561,7 +561,7 @@
   },
   {
     "sentence": "The police answered an emergency call ______ had been made from his house.",
-    "solution": "that"
+    "solution": "that/which"
   },
   {
     "sentence": "They found Ginger sleeping next ______ the phone.",
@@ -573,10 +573,10 @@
   },
   {
     "sentence": "______ the officers noticed Ginger asleep on the phone table, they saw she was alive.",
-    "solution": "When"
+    "solution": "When/As/After"
   },
   {
-    "sentence": "They quickly came to the conclusion that ______ was Ginger.",
+    "sentence": "They quickly came to the conclusion that ______ was Ginger that called them.",
     "solution": "it"
   },
   {
@@ -588,7 +588,7 @@
     "solution": "a"
   },
   {
-    "sentence": "…that an emergency call ______ received in the early hours.",
+    "sentence": "They say that an emergency call ______ received in the early hours.",
     "solution": "was"
   },
   {
@@ -612,7 +612,7 @@
     "solution": "are"
   },
   {
-    "sentence": "Your life is different to those of people who lived in houses long ______.",
+    "sentence": "Your life is different to those of people who lived in houses a long time ______.",
     "solution": "ago"
   },
   {
@@ -645,7 +645,7 @@
   },
   {
     "sentence": "They said they were ______ irritated by noisy children.",
-    "solution": "so"
+    "solution": "so/very/really"
   },
   {
     "sentence": "…willing to pay more to go on a flight ______ them.",
@@ -664,12 +664,12 @@
     "solution": "never"
   },
   {
-    "sentence": "…young children should ______ allowed in first-class.",
+    "sentence": "No young children should ______ allowed in first-class when traveling by plane.",
     "solution": "be"
   },
   {
     "sentence": "It’s clearly a topic ______ strongly divides opinion.",
-    "solution": "that"
+    "solution": "that/which"
   },
   {
     "sentence": "The guards at the Tower of London ______ called Yeoman Warders.",
@@ -680,7 +680,7 @@
     "solution": "for"
   },
   {
-    "sentence": "…and are ______ tourist attraction.",
+    "sentence": "The guards at the Tower of London are ______ tourist attraction.",
     "solution": "a"
   },
   {
@@ -688,27 +688,27 @@
     "solution": "than"
   },
   {
-    "sentence": "…passed on ______ generation to generation.",
+    "sentence": "This information was passed on ______ generation to generation.",
     "solution": "from"
   },
   {
-    "sentence": "The Yeoman Warders ______ originally Henry VIII’s bodyguard.",
+    "sentence": "The Yeoman Warders ______ originally Henry VIII’s bodyguard in the past.",
     "solution": "were"
   },
   {
-    "sentence": "…behind in the Tower ______ protect it.",
+    "sentence": "They lived behind in the Tower ______ protect it.",
     "solution": "to"
   },
   {
-    "sentence": "…the twelve Yeoman Warders ______ guard the Tower still today.",
-    "solution": "who"
+    "sentence": "You can still see the twelve Yeoman Warders ______ guard the Tower even today.",
+    "solution": "who/that"
   },
   {
-    "sentence": "…which people often think comes ______ the French word.",
+    "sentence": "This is an expression that people often think comes ______ the French word.",
     "solution": "from"
   },
   {
-    "sentence": "…dates from the time ______ the Yeoman Warders were given beef.",
+    "sentence": "This word goes back to the time ______ the Yeoman Warders were given beef.",
     "solution": "when"
   },
   {
@@ -720,11 +720,11 @@
     "solution": "to"
   },
   {
-    "sentence": "…that protects us ______ spiritual darkness.",
+    "sentence": "The light that protects us ______ spiritual darkness is very important.",
     "solution": "from"
   },
   {
-    "sentence": "…as important to Hindus ______ Christmas to Christians.",
+    "sentence": "This holiday is as important to Hindus ______ Christmas to Christians.",
     "solution": "as"
   },
   {
@@ -733,10 +733,10 @@
   },
   {
     "sentence": "…they prayed for success ______ the beginning of a new financial year.",
-    "solution": "in"
+    "solution": "in/at"
   },
   {
-    "sentence": "…which mark ______ day after Diwali as the first day of the new financial year.",
+    "sentence": "These are the celebrations that mark ______ day after Diwali as the first day of the new financial year.",
     "solution": "the"
   },
   {
@@ -772,11 +772,11 @@
     "solution": "from"
   },
   {
-    "sentence": "…figure out ______ would act like real snow.",
+    "sentence": "She tried to figure out ______ would act like real snow.",
     "solution": "what"
   },
   {
-    "sentence": "…to see ______ one of them acted most like snow.",
+    "sentence": "She tested two to see ______ one of them acted most like snow.",
     "solution": "which"
   },
   {
@@ -785,22 +785,22 @@
   },
   {
     "sentence": "He watched ______ an elderly lady boarded the plane.",
-    "solution": "as"
+    "solution": "as/when"
   },
   {
     "sentence": "“Dogs ______ not allowed on board.”",
     "solution": "are"
   },
   {
-    "sentence": "…check your dog ______ the baggage.",
+    "sentence": "You should check in your dog ______ the baggage and not bring it on board a plane.",
     "solution": "with"
   },
   {
-    "sentence": "…managed ______ convince the lady.",
+    "sentence": "They managed ______ convince the lady to leave her dog behind.",
     "solution": "to"
   },
   {
-    "sentence": "…saw that the dog ______ dead!",
+    "sentence": "When they arrived, she saw that the dog ______ dead!",
     "solution": "was"
   },
   {
@@ -808,31 +808,31 @@
     "solution": "one"
   },
   {
-    "sentence": "…a dog ______ looked exactly the same.",
-    "solution": "that"
+    "sentence": "They bought another dog ______ looked exactly the same.",
+    "solution": "that/which"
   },
   {
     "sentence": "They quickly switched dogs and ______ felt proud.",
     "solution": "they"
   },
   {
-    "sentence": "…said the lady as ______ as she saw it.",
+    "sentence": "This is not my dog - said the lady as ______ as she saw it.",
     "solution": "soon"
   },
   {
-    "sentence": "I was very careful about where I put ______.",
-    "solution": "it"
+    "sentence": "I was very careful about where I put ______ dog.",
+    "solution": "the"
   },
   {
-    "sentence": "His emblem, a red cross ______ a white background.",
+    "sentence": "His emblem was a red cross ______ a white background.",
     "solution": "on"
   },
   {
     "sentence": "St George’s emblem was adopted ______ Richard The Lion Heart.",
-    "solution": "by"
+    "solution": "by/from"
   },
   {
-    "sentence": "…wore it on their clothes ______ avoid confusion in battle.",
+    "sentence": "King Richard's men wore the emblem on their clothes ______ avoid confusion in battle.",
     "solution": "to"
   },
   {
@@ -840,11 +840,11 @@
     "solution": "the"
   },
   {
-    "sentence": "…and even ______ unlikely that he ever visited England.",
+    "sentence": "He never lived in Spain and it is even ______ unlikely that he ever visited England.",
     "solution": "more"
   },
   {
-    "sentence": "…know St George ______ the dragon-slaying patron saint.",
+    "sentence": "Many people know St George ______ the dragon-slaying patron saint.",
     "solution": "as"
   },
   {
@@ -852,11 +852,11 @@
     "solution": "is"
   },
   {
-    "sentence": "…an area ______ is now in Turkey.",
-    "solution": "that"
+    "sentence": "He used to live in an area ______ is now in Turkey.",
+    "solution": "that/which"
   },
   {
-    "sentence": "He followed ______ father’s example, became a soldier.",
+    "sentence": "George followed ______ father’s example, and became a soldier.",
     "solution": "his"
   },
   {
@@ -864,15 +864,15 @@
     "solution": "on"
   },
   {
-    "sentence": "The Duchess of Alba, who is ______ of the richest women in Spain.",
+    "sentence": "The Duchess of Alba, who is ______ of the richest women in Spain, is here.",
     "solution": "one"
   },
   {
-    "sentence": "…hung with works ______ Goya, Velazquez and Titian.",
-    "solution": "by"
+    "sentence": "…Her peintings hung with works ______ Goya, Velazquez and Titian.",
+    "solution": "by/from"
   },
   {
-    "sentence": "…is giving away her enormous personal fortune in ______ to be free to marry a public servant.",
+    "sentence": "She is giving away her enormous personal fortune in ______ to be free to marry a public servant.",
     "solution": "order"
   },
   {
@@ -884,19 +884,19 @@
     "solution": "not"
   },
   {
-    "sentence": "…and ______ the right to ride on horseback into Seville cathedral.",
-    "solution": "even"
+    "sentence": "Her privileges include not having to kneel before the Pope and ______ the right to ride on horseback into Seville cathedral.",
+    "solution": "even/also"
   },
   {
-    "sentence": "…the children of the duchess, 85, ______ until now blocked her plans.",
-    "solution": "had"
+    "sentence": "Unfortunately, the children of the duchess, 85, ______ until now blocked her plans.",
+    "solution": "had/have"
   },
   {
     "sentence": "…her six children…(26) ______ all born from her first marriage.",
     "solution": "were"
   },
   {
-    "sentence": "She plans to overcome…by giving ______ their inheritance in advance.",
+    "sentence": "She plans to help her children by giving ______ their inheritance in advance.",
     "solution": "them"
   },
   {
@@ -912,11 +912,11 @@
     "solution": "the"
   },
   {
-    "sentence": "…as ______ as a number of smaller ones.",
+    "sentence": "They had three major festivals as ______ as a number of smaller ones.",
     "solution": "well"
   },
   {
-    "sentence": "When Christianity came to Ireland around 1500 years ______.",
+    "sentence": "When Christianity came to Ireland around 1500 years ______, things changed.",
     "solution": "ago"
   },
   {
@@ -928,12 +928,12 @@
     "solution": "be"
   },
   {
-    "sentence": "______ Bealtaine is also the Irish word for the month of May.",
-    "solution": "since"
+    "sentence": "They understand this word ______ Bealtaine is also the Irish word for the month of May.",
+    "solution": "since/as/because"
   },
   {
     "sentence": "This festival is strongly connected ______ fire in Irish tradition.",
-    "solution": "with"
+    "solution": "with/to"
   },
   {
     "sentence": "…the custom ______ building two great fires in a field on this day.",
@@ -944,7 +944,7 @@
     "solution": "to"
   },
   {
-    "sentence": "…is unsure ______ to do, they often use the phrase.",
+    "sentence": "When they don't know ______ to do, they often use the phrase.",
     "solution": "what"
   },
   {
@@ -981,10 +981,10 @@
   },
   {
     "sentence": "Burns was not surprised ______ the behaviour of the rich merchant.",
-    "solution": "at"
+    "solution": "at/by"
   },
   {
-    "sentence": "Sleeping cars ______ introduced in 1838 in the US.",
+    "sentence": "Sleeping cars on trains ______ introduced in 1838 in the US.",
     "solution": "were"
   },
   {
@@ -992,12 +992,12 @@
     "solution": "not"
   },
   {
-    "sentence": "…wanted his sleeping cars to ______ successful.",
+    "sentence": "He wanted his sleeping cars to ______ successful.",
     "solution": "be"
   },
   {
     "sentence": "He hired porters ______ provided polite and efficient service.",
-    "solution": "who"
+    "solution": "who/that"
   },
   {
     "sentence": "They ______ care of the passengers’ needs.",
@@ -1008,11 +1008,11 @@
     "solution": "for"
   },
   {
-    "sentence": "Making the beds ______ evening, cleaning the rooms…",
-    "solution": "each"
+    "sentence": "Making the beds ______ evening, cleaning the rooms daily as well",
+    "solution": "each/every"
   },
   {
-    "sentence": "…referred to as 'George' ______ travelers.",
+    "sentence": "He was often referred to as 'George' ______ travelers.",
     "solution": "by"
   },
   {
@@ -1024,7 +1024,7 @@
     "solution": "than"
   },
   {
-    "sentence": "It took the astronauts to ______ Navajo reservation in Arizona.",
+    "sentence": "The journey took the astronauts to ______ Navajo reservation in Arizona.",
     "solution": "the"
   },
   {
@@ -1032,7 +1032,7 @@
     "solution": "came"
   },
   {
-    "sentence": "The elder, who ______ only Navajo, asked a question.",
+    "sentence": "The elder, who ______ only Navajo, and not a word of English, asked a question.",
     "solution": "spoke"
   },
   {
@@ -1040,27 +1040,27 @@
     "solution": "on"
   },
   {
-    "sentence": "…asked ______ it would be possible to send a message to the moon.",
-    "solution": "if"
+    "sentence": "The Navajo chief asked ______ it would be possible to send a message to the moon.",
+    "solution": "if/whether"
   },
   {
     "sentence": "The Navajo elder's comments into the microphone ______ brief.",
-    "solution": "were"
+    "solution": "were/are"
   },
   {
-    "sentence": "…asked the son to translate ______ his father had said.",
+    "sentence": "The astronauts asked the son to translate ______ his father had said.",
     "solution": "what"
   },
   {
     "sentence": "The son laughed heartily ______ he refused to translate.",
-    "solution": "as"
+    "solution": "as/and"
   },
   {
     "sentence": "…played ______ for other members of the tribe.",
     "solution": "it"
   },
   {
-    "sentence": "After he finally ______ laughing, he translated the message.",
+    "sentence": "He was laughing for a long time. After he finally ______ laughing, he translated the message.",
     "solution": "stopped"
   },
   {
@@ -1076,12 +1076,12 @@
     "solution": "the"
   },
   {
-    "sentence": "Their original purpose was ______ else, not this.",
+    "sentence": "The original purpose of these tales was ______ else, not not be nice and sweet.",
     "solution": "something"
   },
   {
     "sentence": "He had the idea that people ______ do morally wrong things will be punished.",
-    "solution": "who"
+    "solution": "who/that"
   },
   {
     "sentence": "All wrong things will ______ punished.",
@@ -1093,7 +1093,7 @@
   },
   {
     "sentence": "The most famous versions of these tales ______ written down by the Grimm brothers…",
-    "solution": "were"
+    "solution": "were/are"
   },
   {
     "sentence": "Actually, we know that most of their original, darker details and endings ______ been removed.",
@@ -1121,15 +1121,15 @@
   },
   {
     "sentence": "He designed the model city and handcrafted almost all of ______ remarkably lifelike scenery.",
-    "solution": "its"
+    "solution": "its/the"
   },
   {
     "sentence": "Visitors come out saying it’s one ______ the ‘Wonders of the World’.",
     "solution": "of"
   },
   {
-    "sentence": "His hobby got so ______ out of control that he then added five extra basements…",
-    "solution": "much"
+    "sentence": "His hobby got so much ______ of control that he then added five extra basements…",
+    "solution": "out"
   },
   {
     "sentence": "He carried everything to his house ______ order to show off his collection…",
@@ -1141,18 +1141,18 @@
   },
   {
     "sentence": "As long as you do something, it doesn’t seem to matter what ______ of physical activity you do.",
-    "solution": "kind"
+    "solution": "kind/type/form"
   },
   {
     "sentence": "He asked a group of his friends ______ they would spend an extra four hours helping him.",
     "solution": "if/whether"
   },
   {
-    "sentence": "…we may ______ actually need to set aside extra time to work out.",
+    "sentence": "…we may ______ actually need to set aside extra time to work out, it could be any part of the day.",
     "solution": "not"
   },
   {
-    "sentence": "…or to cost ______ to see health benefits.",
+    "sentence": "Working out doesn't have to hurt or to cost ______ to see health benefits.",
     "solution": "much"
   },
   {
@@ -1160,11 +1160,11 @@
     "solution": "a"
   },
   {
-    "sentence": "If you use public transport, get ______ a stop early on your way to work;",
+    "sentence": "If you use public transport, get ______ a stop early on your way to work and walk;",
     "solution": "off"
   },
   {
-    "sentence": "if you ______, park far away from your destination;",
+    "sentence": "if you ______, park your car far away from your destination;",
     "solution": "drive"
   },
   {
@@ -1180,11 +1180,11 @@
     "solution": "than"
   },
   {
-    "sentence": "…is based ______ James and Bob’s relationship.",
+    "sentence": "The story is based ______ James and Bob’s relationship.",
     "solution": "on"
   },
   {
-    "sentence": "James will ______ forget the day when the injured stray cat turned up…",
+    "sentence": "James will ______ forget the day when the injured stray cat turned up, it is still so vivid in his mind.",
     "solution": "never"
   },
   {
@@ -1204,7 +1204,7 @@
     "solution": "because"
   },
   {
-    "sentence": "…he needed me to ______ after him.",
+    "sentence": "…he needed me to ______ after him, take care of him.",
     "solution": "look"
   },
   {
@@ -1212,19 +1212,19 @@
     "solution": "his"
   },
   {
-    "sentence": "…because it ______ his sister’s wedding weekend.",
+    "sentence": "He was excited because it ______ his sister’s wedding weekend.",
     "solution": "was"
   },
   {
-    "sentence": "He called the airline and reported ______ missing.",
+    "sentence": "When he couldn't find his wallet, he called the airline and reported ______ missing.",
     "solution": "it"
   },
   {
-    "sentence": "…a package arrived ______ his home.",
+    "sentence": "A month later, a package arrived ______ his home.",
     "solution": "at"
   },
   {
-    "sentence": "…with a note ______ said:",
+    "sentence": "The package arrived with a note ______ said:",
     "solution": "that"
   },
   {
@@ -1232,7 +1232,7 @@
     "solution": "best"
   },
   {
-    "sentence": "…minutes to believe ______ the note said.",
+    "sentence": "It took a minutes to believe ______ the note said.",
     "solution": "what"
   },
   {
@@ -1240,7 +1240,7 @@
     "solution": "of"
   },
   {
-    "sentence": "…with a message asking ______ help to find Todd.",
+    "sentence": "…with a message asking people ______ help to find Todd.",
     "solution": "for"
   },
   {
@@ -1513,5 +1513,6 @@
   }
 
 ]
+
 
 
