@@ -16,7 +16,7 @@
     "solution": "is"
   },
   {
-    "sentence": "Unlike some other companies, your tickets ______ completely unrestricted.",
+    "sentence": "Unlike some other companies, your tickets ______ completely unrestricted now.",
     "solution": "are"
   },
   {
@@ -25,14 +25,14 @@
   },
   {
     "sentence": "We strongly recommend that first timers start the tour at one of ______ main departure points",
-    "solution": "our"
+    "solution": "our/the"
   },
   {
     "sentence": "You may then choose ______ stay on the bus for a complete tour",
     "solution": "to"
   },
   {
-    "sentence": "Tickets are validfrom the time of purchase ______ the same time the following day.",
+    "sentence": "Tickets are valid from the time of purchase ______ the same time the following day.",
     "solution": "until/till"
   },
   {
@@ -44,7 +44,7 @@
     "solution": "because/as/since"
   },
   {
-    "sentence": "The contest ______ place outside of Gloucestershire.",
+    "sentence": "The contest ______ place outside of Gloucestershire last week.",
     "solution": "took"
   },
   {
@@ -60,7 +60,7 @@
     "solution": "with"
   },
   {
-    "sentence": "…and 18 others ______ treated for cuts and bruises.",
+    "sentence": "…and 18 others ______ treated for cuts and bruises last week.",
     "solution": "were"
   },
   {
@@ -84,11 +84,11 @@
     "solution": "a"
   },
   {
-    "sentence": "Alan Britton, 52, ______ terrified when he saw the shark.",
+    "sentence": "Alan Britton, 52, ______ terrified when he saw the shark last week.",
     "solution": "was"
   },
   {
-    "sentence": "…a cousin ______ the great white shark.",
+    "sentence": It is a cousin ______ the great white shark.",
     "solution": "of"
   },
   {
@@ -104,12 +104,12 @@
     "solution": "the"
   },
   {
-    "sentence": "Last month, Gwithian beach near Hayle was evacuated ______ one was seen prowling close to the shore.",
-    "solution": "after"
+    "sentence": "Last month, Gwithian beach near Hayle was evacuated ______ a shark was seen swimming close to the shore.",
+    "solution": "after/when"
   },
   {
     "sentence": "Shark expert Lindsay Holloway said bathers ______ not risk staying in the water when a mako was around.",
-    "solution": "should"
+    "solution": "should/must/can"
   },
   {
     "sentence": "‘The best thing to ______ is get out of the water as soon as you can,’ he said.",
@@ -124,7 +124,7 @@
     "solution": "at"
   },
   {
-    "sentence": "The series is ______ 48 people left on a remote island in the Pacific Ocean.",
+    "sentence": "The series is ______ 48 people, who are left on a remote island in the Pacific Ocean.",
     "solution": "about"
   },
   {
@@ -140,7 +140,7 @@
     "solution": "and"
   },
   {
-    "sentence": "…under the leadership of Jack, a doctor, played ______ Matthew Fox.",
+    "sentence": "They live under the leadership of Jack, a doctor, played ______ Matthew Fox.",
     "solution": "by"
   },
   {
@@ -172,7 +172,7 @@
     "solution": "to"
   },
   {
-    "sentence": "Fred will say “I love you” a bit louder ______ he used to because Gwen is hard of hearing.",
+    "sentence": "Fred will have to say “I love you” a bit louder ______ he used to because Gwen is hard of hearing.",
     "solution": "than"
   },
   {
@@ -180,8 +180,8 @@
     "solution": "him"
   },
   {
-    "sentence": "…a gesture ______ may have won her heart.",
-    "solution": "that"
+    "sentence": "It is a gesture ______ may have won her heart.",
+    "solution": "that/which"
   },
   {
     "sentence": "Gwen remembers receiving $800 ______ their relatives, then losing it all in the stock-market crash.",
@@ -240,7 +240,7 @@
     "solution": "the"
   },
   {
-    "sentence": "Thanks ______ Tracie, Daisy got an airplane ride home.",
+    "sentence": "Thanks ______ Tracie, Daisy, the terrier, got an airplane ride home.",
     "solution": "to"
   },
   {
@@ -248,12 +248,12 @@
     "solution": "on"
   },
   {
-    "sentence": "…waited for its owner ______ come looking for it.",
+    "sentence": "I waited for its owner ______ come looking for it.",
     "solution": "to"
   },
   {
     "sentence": "______ no one showed up by the next day, Tracie telephoned the number on Daisy's collar.",
-    "solution": "When/As"
+    "solution": "When/As/Since/Because"
   },
   {
     "sentence": "“It's ______ best Christmas present I’ve ever had.”",
@@ -284,7 +284,7 @@
     "solution": "need/have"
   },
   {
-    "sentence": "…every type of bird ______ exists.",
+    "sentence": "You will need to know every type of bird ______ exists to pass this test.",
     "solution": "that/which"
   },
   {
@@ -292,7 +292,7 @@
     "solution": "and"
   },
   {
-    "sentence": "On the day of the exam, the professor ______ standing behind a table with five paper bags.",
+    "sentence": "On the day of the exam, two weeks ago, the professor ______ standing behind a table with five paper bags.",
     "solution": "was"
   },
   {
@@ -300,7 +300,7 @@
     "solution": "to"
   },
   {
-    "sentence": "He stopped and asked the class to ______ down the type of bird in their notebooks.\"",
+    "sentence": "He stopped and asked the class to ______ down the type of bird in their notebooks.",
     "solution": "write"
   },
   {
@@ -308,7 +308,7 @@
     "solution": "not"
   },
   {
-    "sentence": "She was angry\"…and threw ______ crumpled test paper into the bin.\"",
+    "sentence": "She was angry"…and threw ______ crumpled test paper into the bin.",
     "solution": "her"
   },
   {
@@ -316,7 +316,7 @@
     "solution": "most"
   },
   {
-    "sentence": "…to celebrate special occasions such ______ royal weddings.",
+    "sentence": "People dring champagne to celebrate special occasions such ______ royal weddings.",
     "solution": "as"
   },
   {
@@ -348,7 +348,7 @@
     "solution": "There"
   },
   {
-    "sentence": "…the bulls ______ nearly always killed.",
+    "sentence": "One argument against bullfights is that the bulls ______ nearly always killed.",
     "solution": "are"
   },
   {
@@ -356,7 +356,7 @@
     "solution": "by"
   },
   {
-    "sentence": "They came ______ hotel rooms, a survey says.",
+    "sentence": "The items seized by the police came ______ hotel rooms, a survey says.",
     "solution": "from"
   },
   {
@@ -364,15 +364,15 @@
     "solution": "have"
   },
   {
-    "sentence": "______ survey of 1,000 hotel owners and managers found that stealing was widespread.",
+    "sentence": "There was ______ survey of 1,000 hotel owners and managers that found that stealing was widespread.",
     "solution": "a"
   },
   {
-    "sentence": "Stealing by customers ______ widespread, with towels at the top of the list.",
+    "sentence": "Last year, stealing by customers ______ widespread, with towels at the top of the list.",
     "solution": "was"
   },
   {
-    "sentence": "But guests can also ______ surprising items behind.",
+    "sentence": "Sometimes hotel guests guests can also ______ surprising items behind.",
     "solution": "leave"
   },
   {
@@ -1513,4 +1513,5 @@
   }
 
 ]
+
 
