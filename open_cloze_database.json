@@ -88,7 +88,7 @@
     "solution": "was"
   },
   {
-    "sentence": It is a cousin ______ the great white shark.",
+    "sentence": "It is a cousin ______ the great white shark.",
     "solution": "of"
   },
   {
@@ -128,7 +128,7 @@
     "solution": "about"
   },
   {
-    "sentence": "They have to survive after ______ flight breaks apart in mid-air and crashes on the island.\"",
+    "sentence": "They have to survive after ______ flight breaks apart in mid-air and crashes on the island.",
     "solution": "their"
   },
   {
@@ -308,7 +308,7 @@
     "solution": "not"
   },
   {
-    "sentence": "She was angry"…and threw ______ crumpled test paper into the bin.",
+    "sentence": "She was angry…and threw ______ crumpled test paper into the bin.",
     "solution": "her"
   },
   {
@@ -468,7 +468,7 @@
     "solution": "then"
   },
   {
-    "sentence": "The apinter could ______ longer use his hands for the delicate brush strokes.",
+    "sentence": "The painter could ______ longer use his hands for the delicate brush strokes.",
     "solution": "no"
   },
   {
@@ -1511,8 +1511,4 @@
     "sentence": "______ you’re a competent swimmer, you should feel safe.",
     "solution": "If"
   }
-
 ]
-
-
-
